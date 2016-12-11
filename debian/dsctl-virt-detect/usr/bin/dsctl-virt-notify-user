@@ -1,0 +1,17 @@
+#!/usr/bin/python
+# Encoding: UTF-8
+
+from gi.repository import Notify
+import gettext
+import os
+import sys
+
+gettext.install("dsctl-virt-notify-user")
+Notify.init("dsctl-virt-notify-user")
+pyn = Notify.Notification()
+pyn.set_urgency(Notify.Urgency.NORMAL)
+pyn.set_app_name("Discreete Linux")
+
+if os.path.exists("/var/lib/live/detected-virtual-machine"):
+    pyn.update(_("Warning: virtual machine detected!"), _("Both the host operating system and the virtualization software are able to monitor what you are doing in Discreete Linux."), "important")
+    pyn.show() 

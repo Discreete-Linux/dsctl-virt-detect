@@ -1,0 +1,14 @@
+Source: dsctl-virt-detect
+Section: unknown
+Priority: extra
+Maintainer: Discreete Linux Team <info@discreete-linux.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://www.discreete-linux.org
+
+Package: dsctl-virt-detect
+Architecture: all
+Depends: ${misc:Depends}, systemd
+Description: Detect running inside a VM
+ This is a little utility for detecting when Discreete Linux runs inside a 
+ virtual machine. It is inspired by TAILS (tails.boum.org)

@@ -1,0 +1,11 @@
+dsctl-virt-detect (0.2) jessie; urgency=low
+
+  * Ported to Jessie and systemd
+ 
+ -- Discreete Linux Team <info@discreete-linux.org>  Fri, 21 Oct 2016 15:29:46 +0200
+
+upr-virt-detect (0.1-1) precise; urgency=low
+
+  * Initial release
+
+ -- UPR Team <info@privacy-cd.org>  Mon, 22 Jul 2013 10:46:12 +0200

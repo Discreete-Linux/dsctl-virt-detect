@@ -1,0 +1,5 @@
+ab8fe7d52c5b25dbbd80128d1cb78672  lib/systemd/system/dsctl-virt-detect.service
+2fa907648f5d645fd02109ba4839d7db  usr/bin/dsctl-virt-notify-user
+72fec450325fdc4979647b0310940ba8  usr/share/doc/dsctl-virt-detect/changelog.gz
+c1b5529d893afa8f81e808ca52448162  usr/share/doc/dsctl-virt-detect/copyright
+2b0b62bb57982d600c5ef3d32ebb0652  usr/share/locale/de/LC_MESSAGES/dsctl-virt-detect.mo

@@ -1,0 +1,11 @@
+[Unit]
+Description=Detect and notify if we are running in a virtual machine
+ConditionVirtualization=true
+
+[Service]
+Type=oneshot
+ExecStart=/bin/mkdir -p /var/lib/live
+ExecStart=/usr/bin/touch /var/lib/live/detected-virtual-machine
+
+[Install]
+WantedBy=multi-user.target
